@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1676670695 source:/home/sap4k/Desktop/surse/User/main.cpp
+	<iostream>
+
+1676670969 source:/home/sap4k/Desktop/surse/User/src/Users.cpp
+	"Users.h"
+
+1676670969 /home/sap4k/Desktop/surse/User/include/Users.h
+
