@@ -1,16 +1,15 @@
-#ifndef USERS_H
-#define USERS_H
-
-
+#include<iostream>
 class Users
 {
     public:
         Users();
-        virtual ~Users();
-
-    protected:
-
+    void Logare();
+        ~Users();
     private:
+    std::string Log;
+    std::string Pasword;
+    std::string Mail;
+    int ID_User;
+    friend class Network;
 };
 
-#endif // USERS_H

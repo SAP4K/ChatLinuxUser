@@ -1,9 +1,45 @@
 # depslib dependency file v1.0
-1676670695 source:/home/sap4k/Desktop/surse/User/main.cpp
-	<iostream>
+1676971498 source:/home/sap4k/Desktop/surse/User/main.cpp
+	<Network.h>
 
-1676670969 source:/home/sap4k/Desktop/surse/User/src/Users.cpp
+1676970556 source:/home/sap4k/Desktop/surse/User/src/Users.cpp
 	"Users.h"
 
-1676670969 /home/sap4k/Desktop/surse/User/include/Users.h
+1676971100 /home/sap4k/Desktop/surse/User/include/Users.h
+	<iostream>
+
+1676962508 /home/sap4k/Desktop/surse/User/include/Includes.h
+
+1676972048 source:/home/sap4k/Desktop/surse/User/src/Network.cpp
+	"Network.h"
+
+1676971309 /home/sap4k/Desktop/surse/User/include/Network.h
+	<iostream>
+	<sys/socket.h>
+	<sys/types.h>
+	<netdb.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<string.h>
+	<chrono>
+	<thread>
+	<fcntl.h>
+	<vector>
+	<Users.h>
+
+1676964370 source:/home/sap4k/Desktop/surse/User/src/Networks.cpp
+	"Networks.h"
+
+1676963451 /home/sap4k/Desktop/surse/User/include/Networks.h
+	<iostream>
+	<sys/socket.h>
+	<sys/types.h>
+	<netdb.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<string.h>
+	<chrono>
+	<thread>
+	<fcntl.h>
+	<vector>
 
