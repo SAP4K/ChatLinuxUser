@@ -15,12 +15,12 @@ class Network
   public:
         Network(std::string,std::int32_t);
         Network();
-        bool VerificareConectare();
-        void RequestServer(Users& );
+        bool VerificareLogare(Users&);
+        bool InregistrareContNou(Users&);
+        bool get_contacte(Users&);
+        void adauga_contact(Users&);
         ~Network();
     private:
     int ServerSock;
     sockaddr_in ServerAddr;
-
 };
-
